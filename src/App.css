@@ -1,0 +1,128 @@
+.main{
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    width: 80%;
+    text-align: center;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px 0;
+    color: #222;
+}
+
+.main__form{
+    width: 100%;
+    background: transparent;
+    position: relative;
+}
+
+.main__input{
+    width: 100%;
+    height: 40px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    padding: 0px 100px 0 15px;
+}
+
+.main__submit{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    padding: 2px 15px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background: violet;
+    cursor: pointer;
+    font-weight: 700;
+    color: #fff;
+}
+
+.task{
+    width: 100%;
+    height: 40px;
+    margin: 20px 0;
+    border: 2px solid grey;
+    border-radius: 6px;
+
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+.checkTask{
+    width: 100%;
+    height: 40px;
+    margin: 20px 0;
+    border: 2px solid grey;
+    border-radius: 6px;
+
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    opacity: .3;
+    text-decoration:line-through;
+}
+
+.task__name{
+    font-size: 15px;
+    color: #222;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.newTask{
+    width: 80%;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+}
+
+.task__box{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.task__edit{
+    font-size: 20px;
+    cursor: pointer;
+    color: #ffae4c;
+}
+
+.saveTodo{
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+}
+
+.task__delete{
+    font-size: 20px;
+    cursor: pointer;
+    color: #ff5722;
+}
+
+.nodata{
+    font-size: 25px;
+    font-weight: 700;
+    color: #ff5722;
+    margin: 25px 0;
+}
+
+.copy{
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #333;
+}
